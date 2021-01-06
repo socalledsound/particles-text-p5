@@ -101,8 +101,8 @@ function initScene(data){
   for(var i=0;i<ww;i+=Math.round(ww/150)){
     for(var j=0;j<wh;j+=Math.round(ww/150)){
       console.log(i, j, pixels[((i + j * ww) * 4) +3 ]);
-      if(data[ ((i + j*ww)*4) + 3] < 150){
-        particles.push(new Particle(i,j));
+      if(data[ ((i + j*ww)*4) + 3] > 150){
+        particles.push(new Particle>(i,j));
       }
     }
   }
