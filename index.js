@@ -74,8 +74,7 @@ function initGraphics(){
 
   graphics.loadPixels()
   return [0, 0, 0];
-      
-
+      //just for a test
 }
 
 
